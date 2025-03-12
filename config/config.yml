@@ -1,0 +1,4 @@
+PATH : file:///home/ali/Desktop/Movie Recommendation System/data/ml-100k/
+DATA_SCHEMA: userId INT, movieId INT, rating FLOAT, timestamp LONG
+ITEM_SCHEMA: movieId INT, movieTitle STRING, releaseDate STRING, videoReleaseDate STRING, imdbUrl STRING, unknown INT, action INT, adventure INT, animation INT, childrens INT, comedy INT, crime INT, documentary INT, drama INT, fantasy INT, filmNoir INT, horror INT, musical INT, mystery INT, romance INT, sciFi INT, thriller INT, war INT, western INT
+USER_SCHEMA: userId INT, age INT, gender STRING, occupation STRING, zipCode STRING
