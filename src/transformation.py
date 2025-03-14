@@ -6,7 +6,7 @@ from pyspark.sql import SparkSession
 from load_data_elasticsearch import load_data_elasticsearch
 import threading
 from pyspark.sql.functions import from_unixtime, col,to_date, date_format
-from pyspark.ml.recommendation import ALS
+from pyspark.ml.recommendation import ALS 
 from pyspark.ml.evaluation import RegressionEvaluator
 from pyspark.ml.tuning import CrossValidator, ParamGridBuilder
 import datetime
